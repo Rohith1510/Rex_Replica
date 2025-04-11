@@ -32,7 +32,7 @@ export default function ResponsiveNavigation() {
   }, []);
 
   const navigationItems = [
-    { name: 'Rexby', icon: Home, href: '/' },
+    { name: 'Rexy', icon: Home, href: '/' },
     { name: 'Explore', icon: Search, href: '/explore' },
     { name: 'Purchases', icon: ShoppingBag, href: '/purchases' },
     { name: 'Messages', icon: MessageCircle, href: '/messages' },
@@ -46,8 +46,8 @@ export default function ResponsiveNavigation() {
         <div className="max-w-8xl mx-auto flex items-center justify-between">
           {/* Left: Logo */}
           <div className="flex items-center gap-2">
-            <Image src="/rexby-logo.png" alt="Rexby Logo" width={50} height={50} />
-            <span className="text-4xl font-semibold text-[#2583b6]">Rexby</span>
+            <Image src="/rexby-logo.png" alt="Rexy Logo" width={50} height={50} />
+            <span className="text-4xl font-semibold text-[#2583b6]">Rexy</span>
           </div>
 
           {/* Right: Actions */}
@@ -104,8 +104,8 @@ export default function ResponsiveNavigation() {
         <div className="flex items-center justify-between">
           {/* Left: Logo */}
           <div className="flex items-center gap-2">
-            <Image src="/rexby-logo.png" alt="Rexby Logo" width={28} height={28} />
-            <span className="text-lg font-semibold text-[#2583b6]">Rexby</span>
+            <Image src="/rexby-logo.png" alt="Rexy Logo" width={28} height={28} />
+            <span className="text-lg font-semibold text-[#2583b6]">Rexy</span>
           </div>
 
           {/* Right: Globe Icon */}
@@ -130,7 +130,7 @@ export default function ResponsiveNavigation() {
       >
         <div className="p-6">
           <div className="flex justify-between items-center mb-8">
-            <span className="text-lg font-semibold text-[#2583b6]">REXBY</span>
+            <span className="text-lg font-semibold text-[#2583b6]">REXY</span>
             <button onClick={toggleSidebar} className="focus:outline-none">
               <X className="w-6 h-6 text-gray-600" />
             </button>

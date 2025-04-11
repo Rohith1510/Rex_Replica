@@ -104,9 +104,9 @@ const TravelHeroSection: React.FC = () => {
           
           <div className="border-t border-gray-200 my-6 pt-6">
             <p className="text-gray-700">
-              This guide is my best tips for Norway to make sure you get the most out of your trip. It's
-              focused around the fjords in the west and Lofoten in the north. In my opinion, it's the best
-              areas to explore in Norway.
+            This guide is my best tips for Norway to make sure you get the most out of your trip. It&apos;s
+  focused around the fjords in the west and Lofoten in the north. In my opinion, it&apos;s the best
+  areas to explore in Norway.
             </p>
           </div>
         </div>

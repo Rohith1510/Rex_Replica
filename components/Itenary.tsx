@@ -12,7 +12,7 @@ export default function ItinerarySection() {
         <div className="w-full md:w-1/3 flex flex-col justify-center mb-6 md:mb-0">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">1 itinerary</h2>
           <p className="text-gray-500 mb-6">
-            Get expertly curated itineraries that help you organise all the 'things to do' in an ideal time order
+          Get expertly curated itineraries that help you organise all the &apos;things to do&apos; in an ideal time order
           </p>
           <Link href="/preview" className="font-medium text-gray-900 hover:underline">
             Preview for FREE
